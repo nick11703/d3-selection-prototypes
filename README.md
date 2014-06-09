@@ -1,4 +1,4 @@
-d3 Selection Prototypes
+d3.js Selection Prototypes
 =======================
 
 ###Prototypes for d3.js Selections
