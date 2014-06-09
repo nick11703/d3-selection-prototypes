@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Shadow Example - ds.js Selection Prototypes</title>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="../d3-selection-prototypes.js"></script>
+</head>
+<body>
+</body>
+<script type="text/javascript">
+var width = 600;
+var height = 300;
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+svg.append('circle')
+	.attr("cx", width / 2)
+	.attr("cy", height / 2)
+	.attr("r", 100)
+	.style("fill", "#0303e2")
+	.shadow({
+		blur: 3,
+		opacity: .7,
+		color: "#e203d5",
+		offset: {
+			x: 5,
+			y: 5						
+		},
+	});
+</script>
+</html>
