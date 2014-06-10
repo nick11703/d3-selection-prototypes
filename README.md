@@ -3,7 +3,7 @@ d3.js Selection Prototypes
 
 ###Prototypes for d3.js Selections
 
-An easy way to create linear/radial gradients and well as true drop shadows. Also include a better way of getting/creating "refs" tags.
+An easy way to create linear/radial gradients as well as true drop shadows. Also includes a better way of getting/creating "refs" tags.
 
 ###How to use it:
 include d3-selection-prototypes.js after including d3.js, but before your d3 javascript.
